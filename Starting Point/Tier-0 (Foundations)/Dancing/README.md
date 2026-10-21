@@ -1,4 +1,4 @@
-DANCiNG :
+DANCİNG :
 
 Q1: What does the 3-letter acronym SMB stand for?
 
