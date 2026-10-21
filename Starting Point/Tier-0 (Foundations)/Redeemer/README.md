@@ -1,5 +1,3 @@
-**Baþlý**
-
 REDEEMER :
 
 Q1: Which TCP port is open on the machine?
@@ -10,8 +8,7 @@ Q2: Which service is running on the port that is open on the machine?
 
 A2: redis
 
-<img src="images/8190cb9b79ce5cc5a686f2970b0f25d2dd294886.png"
-style="width:10.0625in;height:3.78125in" alt="image" />
+![](images/media/image1.png)
 
 Q3: What type of database is Redis? Choose from the following options:
 (i) In-memory Database, (ii) Traditional Database
@@ -29,8 +26,7 @@ the hostname?
 
 A5: -h
 
-<img src="images/3d76bd3bb15d885a7cc127b0c950efc893fa9e65.png"
-style="width:9.65625in;height:2.83333in" alt="image" />
+![](images/media/image2.png)
 
 Q6: Once connected to a Redis server, which command is used to obtain
 the information and statistics about the Redis server?
@@ -52,32 +48,21 @@ A9: 4
 
 Q10: Which command is used to obtain all the keys in a database?
 
-**Baþlý**
+A10: keys \*
 
-**A10: keys \***
+\## info keyspace : komutu ile tüm veritabanlarındaki anahtarları
+listeleriz.
 
-**\## info keyspace : komutu ile tüm veritabanlarýndaki anahtarlarý
-listeleriz.**
+\## select 0 : ile veritabanını seçtik
 
-**\## select 0 : ile veritabanýný seçtik**
+\## keys : komutu ile anahtarları görüntüledik.
 
-**\## keys : komutu ile anahtarlarý görüntüledik.**
+\## get flag : komutu ile flag anahtar değerini okuduk (görüntüledik.
 
-**\## get flag : komutu ile flag anahtar deðerini okuduk
-(görüntüledik.**
+![](images/media/image3.png)
 
-**Baþlý**
+Q11: (Flag) : Submit the flag located in the database.
 
-**Baþlý**
+A11: 03e1d2b376c37ab3f5319922053953eb
 
-**<img src="images/c7461966a0bab73fe69ad056f2484885759fdb2a.png"
-style="width:9.39583in;height:4.71875in" alt="image" />**
-
-**Q11: (Flag) : Submit the flag located in the database.**
-
-**Baþlý**
-
-**A11: 03e1d2b376c37ab3f5319922053953eb**
-
-**<img src="images/998301f67ebf270ae345c6b0c041ba1ed8a60f36.png"
-style="width:9.14583in;height:5.69792in" alt="image" />**
+![](images/media/image4.png)
